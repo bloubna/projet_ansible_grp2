@@ -6,7 +6,7 @@
   #  - shell /bin/bash
 
 # déclencher le playbook :
-# ansible-playbook premier_playbook.yml -b --ask-become-pass
+# ansible-playbook bootstrap_playbook.yml -b --ask-become-pass
 ---
 - name: PLAY creation utilisateur ansible
   hosts: "{{ cible | default ('server') }}"

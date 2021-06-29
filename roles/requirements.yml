@@ -1,7 +1,7 @@
 ### Roles
 ## GITHUB / GALAXY
 roles:
-- src: 'https://github.com/psable/ansible-role-docker'
-  version: '0.0.1'
+- src: 'https://github.com/geerlingguy/ansible-role-docker'
+  version: '3.1.2'
   scm: git
-  name: ansible-role-docker__0.0.1
+  name: ansible-role-docker__3.1.2
