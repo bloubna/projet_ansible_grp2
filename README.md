@@ -6,10 +6,10 @@ user : stagiaire
 mdp : P0ec2021!
 sudo avec mot de passe
 
-ssh-copy-id stagiaire@poecdevops.grp2.dawan.training
+ssh-copy-id stagiaire@64.227.125.8
 
 ansible debianserver -i inventory -m ping
 
-##Creation du playbook pour initier la création du user ansible dans le server à distance
+# Creation du playbook pour initier la création du user ansible dans le server à distance
 
-ansible-playbook  -b -e cible=serversible --user stagiaire  bootstrap_playbook.yml
+ansible-playbook bootstrap_playbook.yml --user stagiaire -b --ask-become-pass
