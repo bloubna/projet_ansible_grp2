@@ -1,0 +1,13 @@
+---
+- name: PLAY Déploiement de l'application micro-service sur le serveur Docker avec Ansible
+  hosts: server
+  
+  tasks:
+
+    # Déclaration d'une task qui appelle le module git
+    - name: Utilisation du module git
+      ansible.builtin.git:
+        repo: 'https://github.com/bloubna/projet_docker_grp2.git'
+        dest: /projet_docker
+
+  
