@@ -3,7 +3,6 @@
 GRP2 :
 poecdevops.grp2.dawan.training
 user : stagiaire
-mdp : P0ec2021!
 sudo avec mot de passe
 
 ssh-copy-id stagiaire@64.227.125.8
