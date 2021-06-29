@@ -2,9 +2,9 @@
 manager ansible_connection=local
 
 [test]
-debianv ansible_connection=192.168.1.14
-debianl ansible_connection=192.168.1.68
-debiana ansible_connection=192.168.1.62
+debianv ansible_host=192.168.1.14
+debianl ansible_host=192.168.1.68
+debiana ansible_host=192.168.1.62
 
 [server]
-debianserver ansible_connection=64.227.125.8
+debianserver ansible_host=64.227.125.8
