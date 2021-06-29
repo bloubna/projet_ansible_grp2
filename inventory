@@ -1,0 +1,14 @@
+[local]
+manager ansible_connection=local
+
+[test-valentin]
+debian-v ansible_connection=192.168.1.14
+
+[test-loubna]
+debian-l ansible_connection=192.168.1.68
+
+[test-akim]
+debian-a ansible_connection=192.168.1.62
+
+[server]
+debian-server ansible_connection=64.227.125.8
